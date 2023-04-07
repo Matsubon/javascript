@@ -1,0 +1,14 @@
+output = []
+number = prompt("please give me a number")
+function fibonacci(){
+    for(var i = 1; output.length < number; i++){
+        if(i <= 2){
+        output.push(1);
+        } else {
+        output.push(output[output.length - 2] + output[output.length　- 1] );
+        }
+    }
+     
+}
+fibonacci();
+alert(output);
